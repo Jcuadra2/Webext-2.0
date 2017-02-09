@@ -1,0 +1,64 @@
+SET FOREIGN_KEY_CHECKS = 0;
+-- -----------------------------------------------------
+-- Data for table `webext`.`provincias`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `webext`;
+TRUNCATE TABLE `webext`.`provincias`;
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('01', 'ALAVA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('02', 'ALBACETE');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('03', 'ALICANTE');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('04', 'ALMERIA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('05', 'AVILA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('06', 'BADAJOZ');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('07', 'BALEARES');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('08', 'BARCELONA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('09', 'BURGOS');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('10', 'CACERES');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('11', 'CADIZ');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('12', 'CASTELLON');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('13', 'CIUDAD REAL');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('14', 'CORDOBA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('15', 'LA CORUÑA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('16', 'CUENCA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('17', 'GIRONA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('18', 'GRANADA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('19', 'GUADALAJARA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('20', 'GUIPUZCOA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('21', 'HUELVA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('22', 'HUESCA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('23', 'JAEN');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('24', 'LEON');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('25', 'LLEIDA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('26', 'LA RIOJA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('27', 'LUGO');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('28', 'MADRID');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('29', 'MALAGA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('30', 'MURCIA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('31', 'NAVARRA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('32', 'ORENSE');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('33', 'ASTURIAS');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('34', 'PALENCIA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('35', 'GRAN CANARIA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('36', 'PONTEVEDRA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('37', 'SALAMANCA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('38', 'TENERIFE');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('39', 'CANTABRIA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('40', 'SEGOVIA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('41', 'SEVILLA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('42', 'SORIA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('43', 'TARRAGONA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('44', 'TERUEL');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('45', 'TOLEDO');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('46', 'VALENCIA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('47', 'VALLADOLID');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('48', 'VIZCAYA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('49', 'ZAMORA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('50', 'ZARAGOZA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('55', 'CEUTA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('56', 'MELILLA');
+INSERT INTO `webext`.`provincias` (`cod`, `provincia`) VALUES ('XX', 'PROVINCIA GENERICA');
+
+COMMIT;
+
+SET FOREIGN_KEY_CHECKS = 1;

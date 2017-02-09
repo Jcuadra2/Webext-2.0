@@ -1,0 +1,73 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background: url("../images/banner3.jpg") no-repeat top center;
+}
+
+.ui.rating .icon {
+    color: grey;
+}
+
+a {
+    color: #009FDA;
+    text-decoration: none;
+}
+
+.ui.three.column.grid > .row > .column, .ui.three.column.grid > .column, .ui.grid > .three.column.row > .column {
+    width: 33.3333%;
+    min-width: 300px;
+}
+
+header {
+    padding-bottom: 1em;
+}
+
+.accion {
+    font-size: 0.7rem;
+}
+
+.ui.icon.input > .icon.button {
+    padding-top: 0.7em
+}
+
+.ui.left.icon.labeled.input > input {
+    padding-left: 3.5em !important;
+}
+.s1{
+    width: 25%;
+    display: block;
+    float: left;
+}
+
+#addInput {
+    float: right;
+    color: #6A972F !important;
+}
+
+.accordion .title .icon.inbox,
+.accordion .title .icon.comment,
+.accordion .title .icon.euro,
+.accordion .title .icon.block.layout{
+    padding-left: 2em;
+    padding-right: 1em;
+}
+
+
+@media (max-width: 800px) {
+    .ui.accordion .title span {
+        display: block;
+    }
+    .accordion .icon.inbox,
+    .accordion .icon.comment {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+#aemet {
+    width: 40%;
+}
+
+.ui.tiered.main.menu {
+    margin-top: 2px;
+}
